@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-black;
+    @apply text-[#F1F1F1];
+    @apply font-roboto;
+}
+
+.grid-cols-auto {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
